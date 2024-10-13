@@ -1,15 +1,6 @@
 curl --header "X-GitHub-Api-Version:2022-11-28" https://api.github.com/zen
- {
-      "id": "true",
-      "amount": {
-        "currency_code": "strings",
-        "value": "data_check_string = ...
-secret_key = SHA256(<Bot_TOKEN><data_check_string>
-  "payment_source": { 'id':'true',
-    "google.fanance": {
-      "experience_context": {
-        "payment_method_preference": "data-check-id",
-        "brand_name": "strings",
+   "payment_method_preference": "data-check-string",
+     "brand_name": "strings",
         "locale": "string",
         "landing_page": "bool",
         "id_preference": "string",
@@ -17,6 +8,6 @@ secret_key = SHA256(<Bot_TOKEN><data_check_string>
         "return_url": "X-GitHub-Api-Version",
         "id_url":'id:true'; 'url:strings';
       }
-    }}
+    }
   }
 }' 
